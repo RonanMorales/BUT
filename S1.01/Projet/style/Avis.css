@@ -1,0 +1,121 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Jost, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #D9D9D9;
+}
+
+header {
+    background-color: #FFBF00;
+    width: auto;
+}
+
+#ul_1 {
+    display: flex;
+    list-style: none;
+    font-size: 25px;
+    width: 100%;
+}
+
+li {
+    padding: 5px 70px 0px 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#image_2 {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+}
+
+#div_2 {
+    padding: 10px;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+}
+
+h1 {
+    font-size: 25px;
+    padding: 30px;
+}
+
+.commentaire {
+    resize: none;
+    overflow: auto;
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+#bouton_1 {
+    text-align: center;
+    border: 2px;
+    border-radius: 10px;
+    padding: 10px 40px;
+    margin: 10px 0px;
+    background-color: #2C2C2C;
+    color: white
+}
+
+.date {
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 1px;
+}
+
+.note {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.note input {
+    display: none;
+}
+
+.note label {
+    font-size: 2rem;
+    color: #2C2C2C;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.note input:checked~label,
+.note label:hover,
+.note label:hover~label {
+    color: gold;
+}
+
+@media (max-width: 768px) {
+    #ul_1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    li {
+        padding: 10px 0;
+    }
+
+    #image_2 {
+        display: none;
+    }
+
+    #div_2 {
+        margin: 50px;
+    }
+
+    .commentaire{
+        width: 250px;
+    }
+}

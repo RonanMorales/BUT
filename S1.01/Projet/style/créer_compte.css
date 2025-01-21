@@ -1,0 +1,103 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Jost, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #D9D9D9;
+}
+
+header {
+    background-color: #FFBF00;
+    width: auto;
+}
+
+#ul_1 {
+    display: flex;
+    list-style: none;
+    font-size: 25px;
+    width: 100%;
+}
+
+li {
+    padding: 5px 70px 0px 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#image_2 {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+}
+
+
+
+#div_2 {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 60px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+label {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+#div_3 {
+    padding: 30px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333333;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #555555;
+}
+
+.links {
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
